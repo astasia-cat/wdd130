@@ -1,5 +1,5 @@
 nav{
-    background-color: steelblue;
+    background-color: teal;
     padding: 10px;
 }
 nav a {
@@ -8,15 +8,40 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: teal;
 }    
-img {
+main img {
     width: 150px;
-    height:auto;
-    border: 1px solid steelblue;
+    height: auto;
+    border: 1px solid teal;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }  
 p {
-    padding: 10px;
+    padding: 0px;
 }     
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+}
