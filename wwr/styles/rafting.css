@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Oswald:wght@300&family=Playpen+Sans:wght@300&display=swap');
+
+:root{
+    --primary-color: #0A2342;
+    --secondary-color: #79A9D1;
+    --accent1-color: #FAF3DD;
+    --accent2-color: #BBE6E4;
+    
+    --heading-font: 'Edu Tas Beginner', serif;
+    --paragraph-font: 'Oswald', sans-serif;
+    --nav-background-color: #0A2342;
+    --nav-link-color: #7A6263;
+    --nav-hover-link-color:#BBE6E4;
+    --nav-hover-background-color: #BBE6E4;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+img{
+    height: auto;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color:var(--nav-hover-link-color);
+}
+
+nav a:hover{
+    color:var(--nav-hover-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    background-color: rgba(5, 110, 110, 0.8);
+    color: var(--accent1-color) 
+}
+
+.hero article h2 {
+    position: absolute;
+    top: -15px;
+    left: 50px;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
