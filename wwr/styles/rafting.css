@@ -34,7 +34,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr; 
     align-items: center;
-    border-bottom: 1px solid;
     padding: 20px;
     background-color: var(--accent2-color);
     
