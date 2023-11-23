@@ -101,6 +101,7 @@ nav a:hover{
     position: absolute;
     top: -15px;
     left: 50px;
+    color: var(--accent1-color);
 }
 
 .hero article img {
