@@ -79,6 +79,11 @@ nav a:hover{
     height: auto;
 }
 
+.hero img {
+    width: 960px;
+    height: auto;
+}
+
 .hero h1 {
     position: absolute;
     top: 10px;
@@ -90,7 +95,7 @@ nav a:hover{
 .hero article {
     position: absolute;
     top: 350px;
-    left: 550px;
+    left: 500px;
     background-color: rgba(5, 110, 110, 0.8);
     color: var(--accent1-color) 
 }
