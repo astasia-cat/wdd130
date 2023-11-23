@@ -30,21 +30,28 @@ h2, h3, h4, h5, h6{
 }
 
 header{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    align-items: center;
+    border-bottom: 1px solid;
     padding: 20px;
     background-color: var(--accent2-color);
+    
 }
 
 p{
     padding: 25px;
 }
 
-nav{
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-between;
 }
 
-nav a{
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
@@ -59,6 +66,14 @@ nav a:hover{
     color:var(--nav-hover-color);
     background-color: var(--nav-hover-background-color);
 }
+
+.sociallinks {
+    background-color: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .hero {
     position: relative;
@@ -94,4 +109,77 @@ nav a:hover{
     height: auto;
     float: right;
 }
+
+.history-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.history-title {
+    grid-column: 1/4;
+}
+
+#history-image {
+    width: auto;
+    height: 50px;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.adventure-grid h2 {
+    grid-column: 1/6;
+}
+
+.adventure-grid img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+figure {
+    border: thin teal solid;
+    display: flex;
+    flex-flow: column;
+    padding: 1px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: teal;
+    color: white;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+}
+
+.image-1{
+    grid-column: 1/2;
+}
+.image-2{
+    grid-column: 2/3;
+}
+.image-3{
+    grid-column: 3/4;
+}
+.image-4{
+    grid-column: 4/5;
+}
+.image-5{
+    grid-column: 5/6;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+}
+
 
