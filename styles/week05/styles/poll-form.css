@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Oswald:wght@300&family=Playpen+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    color: navy;
+    background: rgb(241, 240, 240);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: .3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: white;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .3rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.2em;
+}
+
+label, input, button, select, textarea {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(241, 240, 240);
+    color: navy;
+    border: thin navy solid;
+    border-radius: .6rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+footer {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    font-size: .8em;
+    color: navy;
+    border-top: 1px solid navy;
+}
+
+.form-item {
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
