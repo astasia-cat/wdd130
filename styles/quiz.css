@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Oswald:wght@300&family=Playpen+Sans:wght@300&display=swap');
+
+:root {
+    --primary-color: rgb(5, 163, 137);
+    --heading-font: 'Edu Tas Beginner', serif;
+    --paragraph-font: 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+    font-family: var(--heading-font);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: thin solid var(--primary-color);
+    background-color: rgb(238, 231, 231);
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input, label, select, textarea, button {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+    padding: 0.8em;
+}
+
+input, select, textarea {
+    padding: .9rem;
+    font-size: larger;
+}
+
+.declaration-statement {
+    background-color: navy;
+    width:400px;
+    padding: 1em;
+    color: white;
+    margin: 0.9em;
+    text-align: left;
+    justify-self: center;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.7rem;
+    margin: 2rem;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: indigo;
+    color: white;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    font-family: var(--heading-font);
+}
