@@ -7,6 +7,8 @@
         <meta name="description" content="Astasia Catanzaro | Web Fundamentals | Contact Us: Rafting Momentum">
         <meta name="author" content="Astasia Catanzaro">
         <link rel="stylesheet" href="styles/rafting.css">
+
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> -->
     </head> 
     <body>
     <header>
@@ -19,7 +21,69 @@
         </nav>
     </header>
     <main>
-        
+        <section>
+            <h1>Get to Know Us!</h1>
+            <p>We love answering any questions you have and hearing about your experiences! We love all feedback, as it helps us to continuously improve your adventures! Below are various ways you can get in touch with us!</p>
+            <div class="employee-flex">
+                <figure class="employee-pic">
+                    <img src="../images/profile.webp" alt="Tiffany Voorhees - Owner">
+                    <figcaption>Astasia Catanzaro<br>Owner</figcaption>
+                </figure>
+                <figure class="employee-pic">
+                    <img src="images/Jessica.jpg" alt="Jess Toth - Customer Service">
+                    <figcaption>Jess Toth<br>Customer Service</figcaption>
+                </figure>
+                <figure class="employee-pic">
+                    <img src="images/Allie.jpg" alt="Allie Marvin - Accounting">
+                    <figcaption>Allie Marvin<br>Accounting</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="location-flex">
+            <div class="address-container">
+                <h2>Headquarters</h2>
+                <h3>West Linn, Oregon, United States</h3>
+                <p>🌎  1100 12 St.</p>
+                <p>✉  rafting_momentum@company.com</p>
+                <p>📱  1-503-987-6543</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11218.856105632187!2d-122.65176061669266!3d45.334396927833886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1701401277213!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <form>
+            <h2>Send Us a Message</h2>
+            <p>Send us a message and we will respond within 24 hours, Sundays excluded.</p>
+
+            <label for="user-name">Name</label>
+            <input type="text" id="user-name" name="user-name" placeholder="Your name">
+
+            <label for="user-email">Email</label>
+            <input type="text" id="user-email" name="user-email" placeholder="Your email address">
+
+            <fieldset class="purpose-section">
+                <legend>Purpose of Contact</legend>
+                <div class="radio-item">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="purpose" value="general" checked>
+                </div>
+                <div class="radio-item">
+                    <label for="reservation-question">Making a Reservation</label>
+                    <input type="radio" id="reservation-question" name="purpose" value="reservation">
+                </div>
+                <div class="radio-item">
+                    <label for="website-suggestion">Customer Feedback</label>
+                    <input type="radio" id="website-suggestion" name="purpose" value="general">
+                </div>
+            </fieldset>
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="contact-message" rows="5"></textarea>
+
+            <div class="checkbox-item">
+                <label for="subscribe">Please subscribe me to the monthy newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+
+            <button type="submit">Send</button>
+        </form>        
     </main>
     <footer>
         <p>©2023 🌊 Rafting Momentum 🌊 Astasia Catanzaro</p>
@@ -34,6 +98,8 @@
                 <img src="images/twitter-logo.png" alt="Twitter Logo">            
             </a>
         </div>
+
+        <a href="https://app.moqups.com/lKpA9krveER5nqHHYHcCMib3rz8bYqq9/view/page/a29d6f3c2" target="_blank">Contact Us Wireframe</a>
     </footer>
     </body>
 </html>    

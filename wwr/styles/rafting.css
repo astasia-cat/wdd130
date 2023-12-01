@@ -182,7 +182,100 @@ figcaption {
 
 footer{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+footer img {
+    width: 25px;
+    height: auto;
+}
+
+.employee-flex {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.employee-pic img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.location-flex {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+
+.address-container h3, p {
+    text-align: left;
+    padding-left: 20px   
+}
+
+.address-container h2 {
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: thin solid var(--primary-color);
+    background-color: rgb(240, 233, 233);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+}
+
+input, label, select, textarea, button {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 7px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.checkbox-item, .radio-item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: .6rem;
+}
+
+.purpose-section {
+    margin: 10px 0;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: .7rem;
+    margin: 1rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: lightsteelblue;
+    color: black;
+}
+
+
+
+
 
 
