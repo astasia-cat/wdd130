@@ -18,6 +18,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    text-align: center;
 }
 
 img{
@@ -39,7 +40,7 @@ header{
 }
 
 p{
-    padding: 25px;
+    padding: 5px;
 }
 
 nav {
@@ -274,7 +275,44 @@ button:hover {
     color: black;
 }
 
+table, td {
+    border: thin solid var(--primary-color);
+}
 
+th, td {
+    padding: 0.4rem;
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    font-size: 2em;
+}
+
+.picture-flex {
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+.figure-pic img {
+    width: 220px;
+    height: 150px;
+    /* object-fit: cover; */
+}
+
+.picture-flex figcaption {
+    background-color: teal;
+    color: white;
+    font: var(--paragraph-font);
+    padding: 3px;
+    text-align: center;
+    height: 400px;   
+}
+
+.table caption h2 {
+    font-size: 4rem;
+}
 
 
 
