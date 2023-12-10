@@ -19,6 +19,7 @@ body{
     max-width: 960px;
     padding: 20px;
     text-align: center;
+    margin: auto;
 }
 
 img{
@@ -98,7 +99,9 @@ nav a:hover{
     top: 350px;
     left: 500px;
     background-color: rgba(5, 110, 110, 0.8);
-    color: var(--accent1-color) 
+    color: var(--accent1-color); 
+    border-radius: 7px;
+    padding: .3rem;
 }
 
 .hero article h2 {
@@ -298,7 +301,6 @@ thead {
 .figure-pic img {
     width: 220px;
     height: 150px;
-    /* object-fit: cover; */
 }
 
 .picture-flex figcaption {
@@ -314,6 +316,68 @@ thead {
     font-size: 4rem;
 }
 
+.btn-link {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 7px;
+    margin: 1rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
 
+.btn-link:hover {
+    background-color: #6f99bc;
+    color: var(--primary-color);
+}
+
+#newsletter-form {
+    margin-top:2rem;
+    border-radius: 7px;
+}
+
+.picture-grid {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 2rem;
+}
+.picture-grid-item {
+    border: thin solid var(--primary-color);
+}    
+
+.figure-pic img {
+    width: 220px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.home-hero{
+    margin: 10px auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-background {
+    border: 5px solid var(--primary-color);
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.home-hero h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: var(--accent1-color);
+}
+
+.home-hero h1 {
+    top: 350px;
+    left: 500px;
+    background-color: rgba(5, 110, 110, 0.8);
+    color: var(--accent1-color); 
+    border-radius: 7px;
+    padding: .3rem;
+}
 
 
